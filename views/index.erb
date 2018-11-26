@@ -8,17 +8,15 @@
 	</head>
 	<body>
 		<p>
-
 			<%= message %>
 		</p>
 		<p>
-
-
+			<%= "You have  #{@@guesses_remaining} guess(es) left" %>
 		</p>
 
 		<form>
 			<input type="text" name="guess">
-			<input type="submit" name="Guess!">
+			<input type="submit" value="Guess!">
 		</form>
 	</body>
 </html>
